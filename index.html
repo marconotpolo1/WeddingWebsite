@@ -265,7 +265,7 @@
         <!-- Count Down Section End -->
 
         <!-- Divider Section Start -->
-        <section class="divider-section story-divider over-layer-black parallax-bg" style="background-image:url();" data-type="parallax" data-speed="5">
+        <section class="divider-section story-divider over-layer-black parallax-bg" style="background-image:none;" data-type="parallax" data-speed="5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -440,46 +440,36 @@
         </section>
         <!-- Event Section End -->
 
+        <!-- Form Section Start -->
+        <section id="registry" class="form-section bg-f9" method="post" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="wd-guest-form-box">
+                            <div class="thumb-left">
+                                <img src="images/bg/form-1.jpg" alt="">
+                            </div>
 
-
-
-
-
-<!-- Form Section Start -->
-<section id="registry" class="form-section bg-f9" method="post" >
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10">
-                <div class="wd-guest-form-box">
-                        <div class="thumb-left">
-                            <img src="images/bg/form-1.jpg" alt="">
-                        </div>
-
-                        <!-- Title Start Start -->
-                        <div class="wd-guest-form">
+                            <!-- Title Start Start -->
+                            <div class="wd-guest-form">
                                 <div class="title-box">
                                     <h4> RSVP HERE! COming Soon</h4>
                                     <h3> Go you attending</h3>
                                 </div>
 
-
-                        <!-- Title End -->
-                        <!-- Form Section Start -->
-
+                                <!-- Title End -->
+                                <!-- Form Section Start -->
+                                <form id="contactusform" action="contact-form.php" method="post">
                                     <div class="left-site">
-                                        <form id="contactusform" action="contact-form.php" method="post">
+
                                         <div class="form-group">
-                                                <input type="text" name="name" id="name" class="form-control" placeholder="First Name" required>
+                                                <input type="text" name="name" id="name" class="form-control" placeholder="First Name" required />
                                         </div>
-
-
                                         <div class="form-group">
-                                            <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required>
+                                            <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required />
                                         </div>
-
-
                                         <div class="form-group">
-                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email"  required>
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email"  required />
                                         </div>
 
 
@@ -492,30 +482,26 @@
                                             </select>
                                         </div>
                                     </div>
-                                        <div class="right-site">
-                                            <div class="form-group">
-                                                <div class="contact-textarea">
-                                                    <textarea class="form-control" rows="6" placeholder="Wright Message" id="message" name="message" required></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                    <input class="send-btn" type="submit" value="Submit"> Sent message </input>
-
+                                    <div class="right-site">
+                                        <div class="form-group">
+                                            <div class="contact-textarea">
+                                                <textarea class="form-control" rows="6" placeholder="Wright Message" id="message" name="message" required></textarea>
                                             </div>
                                         </div>
-                                    </form>
-                              <!-- Form Section end -->
+                                        <div class="form-group">
+                                                <input class="send-btn" type="submit" value="Submit"> Sent message </input>
+
+                                        </div>
+                                    </div>
+                                </form>
+                                  <!-- Form Section end -->
+                            </div>
                         </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-</section>
+        </section>
         <!-- Form Section End -->
-
-
-            Section End -->
 
         <!-- Gift Registration Section Start -->
         <section class="gift-registration-section">
@@ -597,7 +583,5 @@
 
     <!-- Custom JavaScript -->
     <script src="js/script.js"></script>
-
 </body>
-
 </html>
