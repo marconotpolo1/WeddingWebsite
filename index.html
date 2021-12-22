@@ -463,7 +463,7 @@
                                     <div class="left-site">
 
                                         <div class="form-group">
-                                                <input type="text" name="name" id="name" class="form-control" placeholder="First Name" required />
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="First Name" required />
                                         </div>
                                         <div class="form-group">
                                             <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required />
@@ -474,11 +474,11 @@
 
 
                                         <div class="form-group">
-                                            <select class="form-control" name="MealOption" id="MealOption">
-                                              <option selected="" disabled="">Meal</option>
-                                              <option>Steak</option>
-                                              <option>Fish</option>
-                                              <option>Soup</option>
+                                            <select class="form-control" name="MealOption" id="MealOption" required>
+                                                <option>Meal</option>
+                                                <option value="steak">Steak</option>
+                                                <option value="fish">Fish</option>
+                                                <option value="soup">Soup</option>
                                             </select>
                                         </div>
                                     </div>
@@ -489,8 +489,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                                <input class="send-btn" type="submit" value="Submit"> Sent message </input>
-
+                                            <button class="send-btn" type="submit">Send</button>
                                         </div>
                                     </div>
                                 </form>
